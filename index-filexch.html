@@ -1,1 +1,20 @@
 <!-- index-filexch.html --> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>For You Topia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/angular.min.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <script src="scripts/app.js"></script>
+  </head>
+
+  <body>
+    <div class="container" ng-app="app">
+      <header ng-include="'templates/nav-filexch.html'"></header>
+      <div ui-view></div>
+    </div>
+  </body>
+</html>
